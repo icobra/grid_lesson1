@@ -374,3 +374,16 @@ body {
   min-height: 20px;
 }
 
+.copyright {
+  margin: 20px 10px 10px 30px;
+}
+
+.page-footer-logo {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.copyright-details{
+  margin: 20px 30px 10px 10px;
+  text-align: right;
+}
