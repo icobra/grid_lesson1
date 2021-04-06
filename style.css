@@ -69,6 +69,8 @@ body {
     "offers contacts"
     "video contacts";
   grid-gap: 20px;
+
+  background-color: #f1f3fe;
 }
 
 .page-menu{
@@ -79,6 +81,9 @@ body {
     80px
     1fr
     auto;
+
+  background-color: #fff;
+  border-right: 1px solid #b4bef0;
 }
 
 .logo {
