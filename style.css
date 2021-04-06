@@ -37,8 +37,8 @@ body {
     "footer footer";
   grid-template-columns: 280px 1fr;
   grid-template-rows:
-    80px;
-    1fr;
+    80px
+    1fr
     60px;
   min-height: 100vh;
 }
@@ -121,9 +121,30 @@ body {
 }
 
 .profile {
-  /* Временно для сетки */
-  min-width: 250px;
-  min-height: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px;
+  max-width: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.item-with-picture::before {
+  content: attr(data-text);
+  width: 40px;
+  height: 40px;
+}
+
+.profile-name {
+  /* временно для сетки */
+  min-width: 130px;
+}
+
+.profile-btn {
+  width: 30px;
+  border: none;
+  background-color: transparent;
 }
 
 .notifications {
