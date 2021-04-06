@@ -203,6 +203,10 @@ body {
   background-size: 20px 20px;
 }
 
+.search-field::placeholder {
+  color: #b4bef0;
+}
+
 .profile {
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -217,24 +221,71 @@ body {
   content: attr(data-text);
   width: 40px;
   height: 40px;
+
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 40px;
+  text-align: center;
+  color: #b4bef0;
+  border-radius: 50%;
+  background-color: #f1f3fe;
 }
 
 .profile-name {
+  font-size: 16px;
+  line-height: 40px;
+  color: #3c425f;
+  text-decoration: none;
 }
 
 .profile-btn {
+  position: relative;
   width: 30px;
   border: none;
   background-color: transparent;
 }
 
-.notifications {
+.profile-btn::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 6px solid #576bcc;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
 }
 
 .notifications-btn {
   width: 25px;
   height: 25px;
   margin: 27px;
+
+  background-image: url("img/notifications.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
+  background-color: transparent;
+  border: none; 
+}
+
+.notifications-btn span {
+  display: inline-block;
+  position: relative;
+  right: -5px;
+  top: -5px;
+  width: 14px;
+  height: 14px;
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 14px;
+  color: #fff;
+  background-color: #ff8f0b;
+  border-radius: 50%;
+  border: 2px solid #fff;
 }
 
 .slider {
