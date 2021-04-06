@@ -102,6 +102,7 @@ body {
 }
 
 .page-menu-link {
+  position: relative;
   display: block;
   padding: 20px 25px 20px 63px;
 
@@ -117,6 +118,36 @@ body {
   width: 20px;
   height: 20px;
   left: 30px;
+}
+
+.page-menu-link-cab::before {
+  background-image: url("img/cabinet.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-menu-link-class::before {
+  background-image: url("img/class.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-menu-link-book::before {
+  background-image: url("img/book.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-menu-link-home::before {
+  background-image: url("img/home.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-menu-link-exam::before {
+  background-image: url("img/exam.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .page-menu-tools {
