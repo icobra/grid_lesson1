@@ -43,6 +43,7 @@ body {
 
   display: grid;
   grid-template-columns: 1fr auto 80px;
+
   background-color: #fff;
   border-bottom: 1px solid #b4bef0;
 }
@@ -96,9 +97,26 @@ body {
   list-style: none;
 }
 
+.page-menu-item-active {
+  background-color: #f1f3fe;
+}
+
 .page-menu-link {
   display: block;
   padding: 20px 25px 20px 63px;
+
+  font-size: 16px;
+  line-height: 20px;
+  color: #3c425f;
+  text-decoration: none;
+}
+
+.page-menu-link::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 30px;
 }
 
 .page-menu-tools {
