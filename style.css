@@ -52,6 +52,8 @@ body {
 
   display: grid;
   grid-template-columns: 280px 1fr 280px;
+
+  background-color: #3c425f;
 }
 
 .page-main{
