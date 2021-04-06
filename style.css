@@ -17,3 +17,14 @@ body {
   width: 1px;
   overflow: hidden;
 }
+
+html,
+body {
+  min-width: 1440px;
+  min-height: 980px;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
