@@ -256,3 +256,29 @@ body {
   /* Временно для сетки */
   min-height: 20px;
 }
+
+.contacts {
+  grid-area: contacts;
+
+  padding: 20px 0 20px 30px;
+}
+
+.contacts h2 {
+  margin: 0 0 10px 0;
+
+  /*Временно для сетки */
+  min-height: 22px;
+}
+
+.contact-list {
+  padding: 5px 0 0 0;
+  margin: 0;
+  list-style: none;
+}
+
+.contact-item {
+  padding: 16px 10px 0 0;
+
+  /*Временно для сетки */
+  min-height: 56px;
+}
