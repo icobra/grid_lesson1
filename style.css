@@ -112,10 +112,12 @@ body {
 }
 
 .search {
-  /* Временно для сетки */
-  min-width: 233px;
-  min-height: 60px;
-  background-color: aquamarine;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.search-field {
+  padding: 20px 20px 20px 32px;
 }
 
 .profile {
