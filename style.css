@@ -239,6 +239,20 @@ body {
 }
 
 .offers-item {
+  display: grid;
+  grid-template-rows:
+    auto
+    1fr
+    auto;
+  padding: 20px 30px;
+
   /* Временно для сетки */
-  min-height: 140px;
+  min-height: 100px;
+}
+
+.offers-item h3 {
+  margin: 0;
+
+  /* Временно для сетки */
+  min-height: 20px;
 }
