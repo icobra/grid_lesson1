@@ -369,9 +369,6 @@ body {
 
 .offers {
   grid-area: offers;
-
-  /*Временно для сетки */
-  min-height: 140px;
 }
 
 .offers-list{
@@ -391,10 +388,47 @@ body {
     1fr
     auto;
   padding: 20px 30px;
+
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(60, 66, 95, 0.2);
+  border-radius: 4px; 
 }
 
 .offers-item h3 {
   margin: 0;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #3c425f
+}
+
+.offers-item-text {
+  margin: 5px 0 5px 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3c425f;
+}
+
+.offers-item-time {
+  margin: 0 0 8px 0;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0bc4cf;
+}
+
+.offer-footer {
+  text-align: right;
+}
+
+.offers-item a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #576bcc;
+  text-decoration: none;
 }
 
 .video {
