@@ -53,6 +53,17 @@ body {
 
 .page-main{
   grid-area: main;
+
+  padding: 30px;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 300px auto 1fr;
+  grid-template-areas:
+    "slider contacts"
+    "offers contacts"
+    "video contacts";
+  grid-gap: 20px;
 }
 
 .page-menu{
@@ -63,4 +74,28 @@ body {
     80px
     1fr
     auto;
+}
+
+.page-menu-tools {
+  /* Временно для сетки */
+  min-height: 60px;
+}
+
+.search {
+  /* Временно для сетки */
+  min-width: 233px;
+  min-height: 60px;
+  background-color: aquamarine;
+}
+
+.profile {
+  /* Временно для сетки */
+  min-width: 250px;
+  min-height: 40px;
+}
+
+.notifications {
+  /* Временно для сетки */
+  min-width: 25px;
+  min-height: 25px;
 }
