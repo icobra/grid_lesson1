@@ -190,6 +190,17 @@ body {
 
 .search-field {
   padding: 20px 20px 20px 32px;
+
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3c425f;
+  border: none;
+  background-image: url("img/search.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px 20px;
 }
 
 .profile {
