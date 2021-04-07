@@ -373,7 +373,7 @@ body {
 
 .offers-list{
   padding: 0;
-  margin 0;
+  margin: 0;
   list-style: none;
 
   display: grid;
@@ -537,16 +537,27 @@ body {
   grid-area: contacts;
 
   padding: 20px 0 20px 30px;
+
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(60, 66, 95, 0.2);
+  border-radius: 4px;
 }
 
 .contacts h2 {
   margin: 0 0 10px 0;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #3c425f;
 }
 
 .contact-list {
   padding: 5px 0 0 0;
   margin: 0;
   list-style: none;
+
+  border-top: 1px solid #e4e8fc;
 }
 
 .contact-item {
@@ -560,6 +571,12 @@ body {
     auto
     auto;
   grid-column-gap: 12px;
+
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3c425f;
 }
 
 .contact-link::before {
@@ -580,14 +597,35 @@ body {
 
 .copyright {
   margin: 20px 10px 10px 30px;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #aaa;
 }
 
 .page-footer-logo {
   margin: 20px 0;
   text-align: center;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #aaa;
+  text-decoration: none;
 }
 
 .copyright-details{
   margin: 20px 30px 10px 10px;
   text-align: right;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #aaa;
+}
+
+.copyright-details a {
+  color: #aaa;
+  text-decoration: none;
 }
